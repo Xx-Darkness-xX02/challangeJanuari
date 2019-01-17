@@ -17,7 +17,7 @@ header{
 nav{
     background-color: black;
     margin: 0px;
-    height: 80px;
+    height: 85px;
 
 }
 
@@ -209,7 +209,7 @@ div.verderlezen:hover{
 /*-------------------------------------dingen die 1 terug komen-------------------------------------------------------*/
 nav ul li a{
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -246,15 +246,65 @@ div#artikel4 {
 
 }
 
-nav ul
+nav.navigatie ul li{
+    display: inline-block;
+}
 
-
+nav.navigatie{
+    height: 25px;
+}
 
 }
 
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------mediaquery desktop -------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 800px){
+
+
+    div#artikel1{
+        width: 33%;
+    }
 
 
 
+    div#artikel2 {
+        width: 33%;
+    }
+
+
+
+    div#artikel3{
+        width: 33%;
+        position: relative;
+    }
+
+
+
+    div#artikel4{
+        width: 33%;
+        position: relative;
+    }
+
+
+
+    div#berichten{
+        width: 30%;
+        display: inline-block;
+        float: right;
+    }
+
+
+
+    div#berichten2{
+        width: 30%;
+        display: inline-block;
+        float: right;
+    }
+}
 
 
 
