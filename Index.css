@@ -1,4 +1,26 @@
 body {
     background-color: red;
+    font-family: montserrat, sans-serif;
+
+}
+
+nav{
+    background-color: black;
+    margin: 0px;
+}
+
+nav ul{
+    margin: 0px
+}
+
+div#search {
+    background-color: black;
+    margin: 0px;
+    border-top: grey solid 1px;
+}
+
+p{
+    color: grey;
+    margin: 0px;
 }
 
