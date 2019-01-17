@@ -15,7 +15,7 @@ header{
 }
 
 nav{
-    background-color: black;
+    background-color: #2b2c2d;
     margin: 0px;
     height: 85px;
 
@@ -25,6 +25,7 @@ nav ul{
     margin: 0px;
     padding-left: 20px;
     padding-top: 2px;
+    list-style: none;
 
 }
 
@@ -210,7 +211,34 @@ div.verderlezen:hover{
 nav ul li a{
     text-decoration: none;
     color: white;
+
 }
+
+nav.navigatie{
+  height: 280px
+}
+
+nav.navigatie ul li{
+    border-bottom: lightgray solid 1px;
+    height: 50px;
+    padding: 10px
+}
+
+nav.navigatie ul{
+    padding: 0;
+}
+
+nav.navigatie ul li a{
+    margin: 10px;
+    font-size: larger;
+
+}
+
+nav.navigatie ul li:hover{
+    background-color: #404244;
+}
+
+
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------mediaquery tablet -------------------------------------------------------------*/
@@ -218,6 +246,29 @@ nav ul li a{
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 @media all and (min-width: 550px) {
+
+
+    nav.navigatie{
+    height:40px;
+}
+
+nav.navigatie ul li a {
+    font-size:15px;
+
+}
+
+    nav.navigatie ul li{
+        padding: 0;
+        padding-top: 10px;
+        height: 30px
+    }
+
+nav.navigatie ul li:hover{
+    background-color: crimson;
+}
+
+
+
 div#artikel1{
     width: 49%;
     margin: 0;
@@ -250,9 +301,7 @@ nav.navigatie ul li{
     display: inline-block;
 }
 
-nav.navigatie{
-    height: 25px;
-}
+
 
 }
 
@@ -264,45 +313,37 @@ nav.navigatie{
 
 @media all and (min-width: 800px){
 
+    div#artikelen{
+        width: 66%;
+        display: inline-block;
+        float: left;
+    }
+
 
     div#artikel1{
-        width: 33%;
+        width: 49%;
     }
-
-
 
     div#artikel2 {
-        width: 33%;
+        width: 49%;
     }
-
-
 
     div#artikel3{
-        width: 33%;
-        position: relative;
+        width: 49%;
     }
-
-
 
     div#artikel4{
+        width: 49%;
+    }
+
+    div#links{
         width: 33%;
-        position: relative;
-    }
-
-
-
-    div#berichten{
-        width: 30%;
         display: inline-block;
         float: right;
     }
 
-
-
-    div#berichten2{
-        width: 30%;
-        display: inline-block;
-        float: right;
+    nav.navigatie {
+        height: 40px;
     }
 }
 
