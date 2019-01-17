@@ -1,22 +1,51 @@
-body {
-    background-color: red;
-    font-family: montserrat, sans-serif;
 
+
+/*-----------------------------------------algemeen-------------------------------------------------------------------*/
+
+body {
+    background-color: lightgray;
+    font-family: montserrat, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    margin: 0px;
+    height: 90px;
 }
 
 nav{
     background-color: black;
     margin: 0px;
+    height: 80px;
+
 }
 
 nav ul{
-    margin: 0px
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+/*----------------------------fonts-----------------------------------------------------------------------------------*/
+
+p.tekst{
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
-div#search {
-    background-color: black;
+
+h1{
     margin: 0px;
-    border-top: grey solid 1px;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom:5px;
+    padding-top: 20px;
+    margin-left: 10px;
 }
 
 p{
@@ -24,3 +53,78 @@ p{
     margin: 0px;
 }
 
+header p {
+    color: black;
+    text-align: center;
+}
+
+div#search p.publicatie {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div#search2 p.publicatie {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*-------------------------------------------------------alle div's---------------------------------------------------*/
+div#search {
+    background-color: white;
+    margin: 10px;
+    height: 274px;
+    margin-bottom: 0px;
+}
+
+div#search2 {
+    background-color: white;
+    margin: 10px;
+    height: 260px;
+    margin-bottom: 0px;
+}
+
+div.extra{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-top: solid 1px lightgray;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+div.extra p {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+i {
+    margin-left: 10px;
+    color: grey;
+}
+/*--------------------------------------verder lezen------------------------------------------------------------------*/
+div.verderlezen{
+    background-color: crimson;
+    height: 40px;
+    width: 110px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+p.verder{
+    color: white;
+    text-align: center;
+    padding-top: 10px
+}
+
+/*-------------------------------------dingen die vaker terug komen---------------------------------------------------*/
+
+
+
+/*-------------------------------------dingen die 1 terug komen-------------------------------------------------------*/
+nav ul li a{
+    text-decoration: none;
+    color: grey
+}
