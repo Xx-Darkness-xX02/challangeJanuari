@@ -177,6 +177,9 @@ div#artikel2{
     display: inline-block;
 }
 
+div#search2 a {
+    text-decoration: none;
+}
 
 /*--------------------------------------verder lezen------------------------------------------------------------------*/
 div.verderlezen{
@@ -238,6 +241,9 @@ nav.navigatie ul li:hover{
     background-color: #404244;
 }
 
+footer{
+    display: none;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -317,6 +323,7 @@ nav.navigatie ul li{
         width: 66%;
         display: inline-block;
         float: left;
+
     }
 
 
@@ -345,13 +352,28 @@ nav.navigatie ul li{
     nav.navigatie {
         height: 40px;
     }
+
+    footer{
+        display: inline-block;
+        background-color: #2b2c2d;
+        height: 40px;
+        width: 100%;
+        margin-top: 50px;
+    }
 }
+/*--------------------------------------------------------------------------------------------------------------------*/
 
+/*----------------------------------------------- grotere mediaquery--------------------------------------------------*/
 
+/*--------------------------------------------------------------------------------------------------------------------*/
 
+@media all and (min-width: 1200px){
+    div#wrapper{
+        width: 1200px;
+        margin: auto;
+    }
 
-
-
+}
 
 
 

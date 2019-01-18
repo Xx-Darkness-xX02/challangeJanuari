@@ -83,6 +83,8 @@ div#berichten2 nav ul li a:hover{
 }
 
 
+
+
 /*------------------------------------------------   FONTS   ---------------------------------------------------------*/
 h1{
     margin: 0px;
@@ -101,7 +103,6 @@ h3{
 h2{
     padding-left: 5px;
 }
-
 /*-----------------------------------------------   DIV  -------------------------------------------------------------*/
 div#archeologie{
     background-color: white;
@@ -215,11 +216,11 @@ div#berichten2 h3 {
 /*--------------------------------------- mediaquery groter ----------------------------------------------------------*/
 
 @media all and (min-width: 1200px){
-div#wrapper {
-    width: 1200px;
-    margin: auto;
+    div#wrapper {
+        width: 1200px;
+        margin: auto;
 
-}
+    }
 
     div#archeologie  p{
         padding: 5px;
@@ -232,15 +233,3 @@ div#wrapper {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
